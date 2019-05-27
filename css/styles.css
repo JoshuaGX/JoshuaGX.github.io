@@ -1,10 +1,10 @@
 :root {
   --color-white: #ffffff;
-  --color-lgray: #2b2b2b;
+  --color-lgray: #b4b4b4;
   --sun-orange: #edc655;
   --sun-yellow: #fcffad;
   --sun-red: #f76414;
-  --color-dgray: #747474;
+  --color-dgray: #4a4a4a;
   --color-teal: #357b70;
   --color-orange: #e0b354;
   --color-black: #000000;
@@ -17,7 +17,7 @@
 
 body {
   font-family: 'Philosopher', sans-serif;
-  background-color: var(--color-dgray);
+  /*background-color: var(--color-dgray);*/
   background-image: url("../img/background1.jpg");
   background-size: cover;
   color: var(--color-black);
@@ -85,7 +85,7 @@ button:focus,
 
 .button_secondary {
   background-color: var(--color-orange);
-  color: var(--color-lgray);
+  color: var(--color-dgray);
 }
 
 .navigation-list {
