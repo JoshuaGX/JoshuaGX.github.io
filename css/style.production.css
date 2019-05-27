@@ -4,28 +4,24 @@ body {
   background-image: url("../img/background1.jpg");
   background-size: cover;
   color: #000000;
-  font-size: undefined;
+  font-size: 18px;
   line-height: 1.6;
   font-weight: 400;
 }
 
-%header {
+h1 {
+  font-size: 30px;
   font-weight: 700;
 }
 
-h1 {
-  @extend %header;
-  font-size: 30px;
-}
-
 h2 {
-  @extend %header;
   font-size: 24px;
+  font-weight: 700;
 }
 
 h3 {
-  @extend %header;
   font-size: 18px;
+  font-weight: 700;
 }
 
 a a:visited a:active{

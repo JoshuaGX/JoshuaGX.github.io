@@ -21,28 +21,24 @@ body {
   background-image: url("../img/background1.jpg");
   background-size: cover;
   color: var(--color-black);
-  font-size: var(--font-18);
+  font-size: var(--h3-font-18);
   line-height: 1.6;
   font-weight: 400;
 }
 
-%header {
+h1 {
+  font-size: var(--h1-font-30);
   font-weight: var(--header-font-weight);
 }
 
-h1 {
-  @extend %header;
-  font-size: var(--h1-font-30);
-}
-
 h2 {
-  @extend %header;
   font-size: var(--h2-font-24);
+  font-weight: var(--header-font-weight);
 }
 
 h3 {
-  @extend %header;
   font-size: var(--h3-font-18);
+  font-weight: var(--header-font-weight);
 }
 
 a a:visited a:active{
