@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JCG - DEVELOPMENT</title>
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <img src="img/jcg-development.png" class="page-header_item" alt="logo">
+    <!-- Navigation Bar -->
+    <nav class="navigation-list page-header_item">
+      <ul role="menubar">
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list_item">Home</a>
+        </li>
+        <li role="presentation">
+          <a href="aboutMe.html" role="menuitem" class="navigation-list_item">About Me</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list_item">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list_item">Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contactPage">
+    <div class="container">
+      <h1>Contact</h1>
+      <div>
+        Tel <a href="tel:+15777377" aria-label="my phone number">+1 801-577-7377</a><br>
+        Skype <a href="skype:live:jcgx_2">live:jcgx_2</a><br>
+        <a href="mailto:jcgx@protonmail.com">JCGX@protonmail.com</a><br>
+        <a href="mailto:jcgx@protonmail.com">Contact Me</a>
+      </div>
+    </div>
+
+    <form action="" method="post" id="contact-form">
+      <label class="standard-label" for="visitor's-email">E-mail: </label>
+      <input type="email" id="visitor's-email" required>
+
+      <label class="standard-label" for="visitor's-phone-number">Telephone: </label>
+      <input type="tel" id="visitor's-phone-number">
+    <!-- I have omitted the pattern="\d{3}[\-]\d{3}[\-]\d{4}" portion from my input on the telephone since I am unsure if I will be receiving international calls or just local calls ATM... TBD -->
+      <label class="standard-label" for="visitor's-message"><br>Message: </label>
+      <textarea maxlength="240" id="visitor's-message" required></textarea>
+
+      <input type="submit" value="Send message" >
+    </form>
+  </div>
+  <footer class="page-footer">
+    <div>
+      <p>Find me on</p>
+      <a href="https://github.com/JoshuaGX" target="_blank"><img width="30px" height="30px" src="img/github-logo.svg" alt="Github"></a>
+      <a href="https://twitter.com/JGehmlich" target="_blank"><img width="30px" height="30px" src="img/twitter.svg  " alt="Twitter"></a>
+      <a href="https://www.linkedin.com/in/joshua-gehmlich-b5435217b" target="_blank"><img width="30px" height="30px" src="img/linked-in-square-button.svg" alt="LinkedIn"></a>
+    </div>
+    <div class="copyright">
+      <p>Unpublished Work &copy; Copyright 2019 Joshua Cole Gehmlich, All Rights Reserved.</p>
+    </div>
+  </footer>
+
+<script src="js/tota11y.min.js"></script>
+
+</body>
+
+
+</html>
