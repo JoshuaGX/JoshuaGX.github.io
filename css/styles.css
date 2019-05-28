@@ -1,4 +1,7 @@
 :root {
+  --color-blue1: #3EB9F2;
+  --color-purple2: #7331A2;
+  --color-purple1: #7D35AC;
   --color-white: #ffffff;
   --color-lgray: #b4b4b4;
   --sun-orange: #edc655;
@@ -12,6 +15,7 @@
   --font-22: 22px;
   --h2-font-24: 24px;
   --h1-font-30: 30px;
+  --font-32: 32px;
   --header-font-weight: 700;
 }
 
@@ -27,7 +31,7 @@ body {
 }
 
 h1 {
-  font-size: var(--h1-font-30);
+  font-size: var(--font-32);
   font-weight: var(--header-font-weight);
 }
 
@@ -39,6 +43,14 @@ h2 {
 h3 {
   font-size: var(--h3-font-18);
   font-weight: var(--header-font-weight);
+}
+
+.josh {
+  color: var(--color-purple2);
+}
+
+.fullstack {
+  color: var(--color-blue1);
 }
 
 a a:visited a:active{
@@ -58,7 +70,7 @@ button,
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: var(--color-teal);
+  background-color: var(--color-purple1);
   color: var(--color-white);
   text-decoration: none;
   /*adds spacing to the button (this will be discussed more in-depth later) */
@@ -80,8 +92,8 @@ button:focus,
 }
 
 .button_secondary {
-  background-color: var(--color-orange);
-  color: var(--color-dgray);
+  background-color: var(--color-blue1);
+  color: var(--color-black);
 }
 
 .navigation-list {
