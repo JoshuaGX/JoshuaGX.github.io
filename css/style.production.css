@@ -29,7 +29,7 @@ h3 {
 }
 
 .fullstack {
-  color: #3EB9F2;
+  color: #007fac;
 }
 
 a a:visited a:active{
@@ -92,7 +92,7 @@ button:focus,
 }
 
 .button_secondary {
-  background-color: #3EB9F2;
+  background-color: #007fac;
   color: #000000;
 }
 
