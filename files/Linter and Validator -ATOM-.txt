@@ -1,3 +1,0 @@
-HTML - w3c-validation - ATOM
-
-CSS - linter-stylelint
