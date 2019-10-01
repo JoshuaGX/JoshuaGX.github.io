@@ -32,25 +32,35 @@
       </ul>
     </nav>
   </header>
-  <div class="profile">
-    <img src="img/JGPortrait.png" class="profile_portrait" alt="Joshua Gehmlich Portrait">
-    <h1 class="josh">Gehmlich, Joshua</h1>
-    <h2 class="fullstack">Fullstack Web Developer</h2>
-    <p>
-      One page, Two page, Red page, Blue Page; but when it all comes down to brass tacks, all that matters is the satisfaction of creating something genuine and worth while. Need to hire a nerd? Or just want to ask basic questions? Feel free to reach out to me. There is no project too small because I’ll accept any challenge. Front-End and Back-End; the Full Stack if you would. Take your jacket off and stay a while. I programmed all these links and buttons specifically for you! So it’s kind of like, “you gotta check it all out or live with the guilt of missing out”, on an incredible resource: Your Nerd for Hire.
-    </p>
+  <div class="contactPage">
+    <div class="container">
+      <h1>Have a Question? Need a Quote?</h1>
+      <ul>
+        <li>I respond to all Emails/Texts within 24 hours of being received.</li> <br><li>Phone/Skype calls must be scheduled in advance.</li><br><li>If you enjoy the safety of PGP-Encryption, please feel free to download my public key.</li><br>
+      </ul>
+      <a href="files/JCG-PUBLIC.asc" class="button button_secondary" download><strong>Download PGP-Key</strong></a><br>
+<!-- Fingerprint: 96DDAC6DED82A2A23BF13112929A85115E1394DA -->
+      <div>
+        Tel <a href="tel:+18015777377" aria-label="my phone number">+1 801-577-7377</a><br>
+        Skype <a href="skype:live:jcgx_2">live:jcgx_2</a><br>
+        <a href="mailto:jcgx@protonmail.com">JCGX@protonmail.com</a><br>
+        <a href="mailto:jcgx@protonmail.com">Contact Me</a><br>
+      </div>
+    </div>
 
+    <form action="#" method="post" id="contact-form">
+      <label class="standard-label" for="visitor's-email">E-mail: </label>
+      <input type="email" id="visitor's-email" required>
 
-    <a href="contact.html" class="button"><strong>Send me a message</strong></a>
+      <label class="standard-label" for="visitor's-phone-number"><br>Telephone: </label>
+      <input type="tel" id="visitor's-phone-number">
+    <!-- I have omitted the pattern="\d{3}[\-]\d{3}[\-]\d{4}" portion from my input on the telephone since I am unsure if I will be receiving international calls or just local calls ATM... TBD -->
+      <label class="standard-label" for="visitor's-message"><br>Message: </label>
+      <textarea maxlength="240" id="visitor's-message" required></textarea>
 
-    <a href="aboutMe.html" class="button button_secondary"><strong>Professional Experience</strong></a><br>
-<!--
-    <button class="button_secondary"><strong>Check out some of my code</strong></button>
-
-    <button type="button"><strong>Hire Me</strong></button> -->
+      <input type="submit" value="Send message" >
+    </form>
   </div>
-
-
   <footer class="page-footer">
     <div>
       <p>Find me on</p>
@@ -74,8 +84,7 @@
 
   </footer>
 
-
-  <script src="js/tota11y.min.js"></script>
+<script src="js/tota11y.min.js"></script>
 
 </body>
 
